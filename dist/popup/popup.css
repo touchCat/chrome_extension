@@ -1,0 +1,17 @@
+body{width:179px;min-height:154px;overflow-x:hidden;background:#2b2b2b;margin:0;padding:0}
+#login{display:block;}
+#login img{margin:12px auto;display:block;}
+#login img:first-child{margin-top:24px}
+#login .btn-login{background:#db313c url("images/text_github.png");background-repeat:no-repeat;background-position:center center;-webkit-border-radius:5px;border-radius:5px;width:80%;height:42px;margin:0 auto;text-align:center;color:#fff;cursor:pointer}
+.passport #login{display:none}
+#info{color:#fff;display:none;}
+#info .myself{position:relative;height:64px;background:#bf1e2e}
+#info .photo{background:url("images/photo_cat.png");position:absolute;top:50%;left:22px;margin-top:-18px;display:block;width:36px;height:36px;cursor:pointer}
+#info .fish,#info .life{margin:8px 8px}
+#info .fish,#info .life,#info .diagram{position:relative;width:64px;height:64px}
+#info .icon{position:absolute;left:50%;top:50%;width:28px;height:28px;margin-left:-14px;margin-top:-14px}
+#info .name{position:absolute;left:66%;top:32px;margin-left:-33%;width:66%;text-align:center;font-size:12px}
+#info .percent{background:url("images/icon_percentage.png");background-position:right bottom;background-repeat:no-repeat;padding-right:24px;position:absolute;right:-100px;top:50%;margin-top:-18px;font-size:36px}
+#info .fish .icon{background:url("images/icon_fish.png")}
+#info .life .icon{background:url("images/icon_heart.png")}
+.passport #info{display:block}

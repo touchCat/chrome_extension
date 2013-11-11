@@ -1,0 +1,88 @@
+@import 'nib'
+
+body
+  width: 179px
+  min-height: 154px
+  overflow-x: hidden
+  background: #2B2B2B
+  margin: 0
+  padding: 0
+
+#login
+  display: block
+  img
+    margin: 12px auto
+    display: block
+    &:first-child
+      margin-top: 24px
+  .btn-login
+    background: #DB313C url('images/text_github.png')
+    background-repeat: no-repeat
+    background-position: center center
+    border-radius: 5px
+    width: 80%
+    height: 42px
+    margin: 0 auto
+    text-align: center
+    color: #FFF
+    cursor: pointer
+  .passport &
+    display: none
+
+#info
+  color: #FFF
+  display: none
+  .myself
+    position: relative
+    height: 64px
+    background: #BF1E2E
+  .photo
+    background: url('images/photo_cat.png')
+    position: absolute
+    top: 50%
+    left: 8px + 14px
+    margin-top: -18px
+    display: block
+    width: 36px
+    height: 36px
+    cursor: pointer
+  .fish, .life
+    margin: 8px 8px
+  .fish, .life, .diagram
+    position: relative
+    width: 64px
+    height: 64px
+  .icon
+    position: absolute
+    left: 50%
+    top: 50%
+    width: 28px
+    height: 28px
+    margin-left: -14px
+    margin-top: -14px
+  .name
+    position: absolute
+    left: 66%
+    top: 32px
+    margin-left: -33%
+    width: 66%
+    text-align: center
+    font-size: 12px
+  .percent
+    background: url('images/icon_percentage.png')
+    background-position: right bottom
+    background-repeat: no-repeat
+    padding-right: 24px
+    position: absolute
+    right: -100px
+    top: 50%
+    margin-top: -18px
+    font-size: 36px
+  .fish
+    .icon
+      background: url('images/icon_fish.png')
+  .life
+    .icon
+      background: url('images/icon_heart.png')
+  .passport &
+    display: block

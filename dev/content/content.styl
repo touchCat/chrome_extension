@@ -1,0 +1,61 @@
+@import "nib"
+
+@keyframes action
+  from 
+    background-position: 0% 0%
+  to
+    background-position: 100% 0%
+
+#touchcat-cat
+  display: block
+  width: 300px
+  height: 300px
+  position: fixed
+  right: 0
+  bottom: 0
+  z-index: 99999
+  background-repeat: no-repeat
+  animation-duration: 0.5s
+  animation-name: action
+  animation-timing-function: steps(9)
+  animation-iteration-count: infinite
+  animation-direction: alternate
+  transition: background-image 0.3s
+  &.cat-pitch
+    margin-right: -200px
+    margin-bottom: -200px
+  &.cat-drag
+    transition: bottom 0.5s
+  &.cat-walk_normal
+    transition: right 1s
+  &.cat-drag, &.cat-walk_normal, &.cat-pitch
+    .touchcat-message
+      display: none
+
+.touchcat-message
+  padding: 6px 10px 6px 10px
+  background: rgba(0, 0, 0, .75)
+  color: #FFF
+  border-radius: 10px
+  width: 100%
+  display: none
+  &.has-todo
+    display: block
+
+.touchcat-life-tip
+  position: absolute
+  left: 0
+  top: 0
+  background: rgba(#ff9f16, .75)
+  color: #000
+  font-size: 24px
+  border-radius: 10px
+  display: block
+  padding: 8px 10px 6px 10px
+  opacity: 1
+  &.touchcat-show
+    transition: all 0.5s
+    transition-timing-function: ease-in
+    top: -20px
+    opacity: 0
+

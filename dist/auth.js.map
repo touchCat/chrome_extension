@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "auth.js",
+  "sourceRoot": "",
+  "sources": [
+    "auth.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA,CAAA,EAAE,MAAA;CACA,IAAA,CAAA;CAAA,CAAA,CAAQ,CAAA,CAAR,GAAsC,QAAd;CACxB,CAAA,EAAG,CAAH;CACE,GAAA,EAAM,CAAQ,IAAd;CACE,CAAG,IAAH,MAAA;CAAA,CACK,CAAL,GAAA,CADA;CAAA,CAEO,GAAP,CAAA;CAHF,KAAA;CAIO,IAAP,CAAM,KAAN;IAPF;CAAA"
+}
